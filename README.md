@@ -8,7 +8,7 @@ Honestly there are no problems the dependencies are as follows:
 - zsh;
 - vim.
 ## Install
-The advice is to use the plugin for vim {[Vim-plug](https://github.com/NF02/vim-live-latex-preview)} and you have to import the library with:
+The advice is to use the plugin for vim {[Vim-plug](https://github.com/NF02/vim-plug)} and you have to import the library with:
 
 ### Vim
 ```sh
