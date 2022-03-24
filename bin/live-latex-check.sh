@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env zsh
 mfile="$1"
 sfile="$2"
 windowid="$3"
