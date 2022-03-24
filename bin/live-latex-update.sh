@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/env zsh
 
 file="$1"
 windowid="$2"
@@ -8,8 +8,8 @@ auxfile="${basename}.aux"
 
 
 # determine which compilation program to use
-if head -n 5 "$file" | grep -i -q 'xelatex' > /dev/null 2>&1 ; then
-    execprog="xelatex"
+if head -n 5 "$file" | grep -i -q 'xetex' > /dev/null 2>&1 ; then
+    execprog="xetex"
     echo "XeLaTeX document detected."
 elif sed -n -e '/\\documentclass/,/\\begin{[[:space:]]*document[[:space:]]*}/p' "$file" \
 | grep '\usepackage\(\[.*\]\|\){.*\(pstricks\|pst-\).*}' > /dev/null 2>&1 ; then
