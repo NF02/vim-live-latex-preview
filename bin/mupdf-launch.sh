@@ -1,7 +1,8 @@
 #!/bin/bash
 texfile="$2"
 pdffile="$1"
-mupdf "$pdffile" &>/dev/null &
+#mupdf "$pdffile" &>/dev/null &
+zathura "$pdffile" &>/dev/null &
 mupid="$!"
 muwinid="0"
 nummps=$(xdotool search --class "MuPDF" getwindowname %@ | grep -n "$pdffile" | cut -d":" -f1)
