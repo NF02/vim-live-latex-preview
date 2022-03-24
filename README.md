@@ -29,7 +29,15 @@ call plug#begin()
 	...
 call plug#end()
 ```
+### Neovim
+While in the case of neoVim you need to edit the file in
+`$HOME/.config/nvim/init.vim`. Otherwise the syntax is the same as for vim.
 
-## Warning:
-- For licence info and more details please visit https://aur.archlinux.org/packages/vim-live-latex-preview.
-
+## Setting
+The settings to be applied within the vim or neo vim configuration files are 
+the following:
+```vim
+	let tex_preview_always_autosave = 1
+```
+And once this is done, automatic saves will be activated for each character
+typed.
