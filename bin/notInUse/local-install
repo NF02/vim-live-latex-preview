@@ -1,3 +1,4 @@
 #!/bin/bash
 chmod a+x *.sh
+mkdir -p $HOME/.local/bin/shell 
 cp *.sh $HOME/.local/bin/shell
