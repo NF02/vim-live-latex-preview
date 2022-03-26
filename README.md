@@ -4,10 +4,12 @@ This plugin allows you to have the live preview in LaTeX for Vim/NeoVim, it is
 simple, it only works on X11, it is perfect for all those who need an efficient
 solution and also for all those who are used to Microsoft / LibreOfficie.
 Honestly there are no problems the dependencies are as follows:
+
 - zathura;
 - xdotool;
 - zsh;
 - vim.
+
 ## Install
 The advice is to use the plugin for vim {<a href="https://github.com/NF02/vim-plug">Vim-plug</a>} and you have to import the library with:
 
