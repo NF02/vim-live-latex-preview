@@ -9,7 +9,7 @@ Honestly there are no problems the dependencies are as follows:
 - zsh;
 - vim.
 ## Install
-The advice is to use the plugin for vim {[Vim-plug](https://github.com/NF02/vim-plug)} and you have to import the library with:
+The advice is to use the plugin for vim {<a href="https://github.com/NF02/vim-plug">Vim-plug</a>} and you have to import the library with:
 
 ### Vim
 ```sh
