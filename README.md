@@ -1,5 +1,6 @@
 # LaTeX Live Preview for NVIM
 <img src="https://raw.githubusercontent.com/NF02/vim-live-latex-preview/master/bin/notInUse/logo.png" alt="Vim live Latex logo" style="height: 100px; width:100px;"/>
+<img src="https://raw.githubusercontent.com/NF02/vim-live-latex-preview/master/doc/prev1.gif" style="width:600px;" />
 This plugin allows you to have the live preview in LaTeX for Vim/NeoVim, it is 
 simple, it only works on X11, it is perfect for all those who need an efficient
 solution and also for all those who are used to Microsoft / LibreOfficie.
