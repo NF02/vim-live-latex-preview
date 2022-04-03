@@ -32,7 +32,7 @@ We need to edit the `.vimrc` file by adding:
 ```vim
 call plug#begin()
 	...
-	Plug 'nf02/vim-live-latex-preview'
+	Plug 'nf02/vim-live-latex-preview', { 'for': 'tex' }
 	...
 call plug#end()
 ```
